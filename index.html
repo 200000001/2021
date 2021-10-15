@@ -14,7 +14,9 @@
     <style>
         * {font-family: "맑은 고딕", Arial, Helvetica, sans-serif;}
         body{max-width: 980px;
-             margin:  0 auto;}
+             margin:  0 auto;
+            }
+
         header h1 {display: inline;}
         header img {height: 100px;}
         ul {list-style-type: none;}
@@ -42,6 +44,7 @@
     </style>
 </head>
 <body>
+    <article></article>
     <div class="container">
     <header>
         <img src="./images/logo.jpg" alt="logo">
@@ -55,7 +58,8 @@
             <li><a href="#Contact">Contact</a></li>
         </ul>
     </nav>
-    <section class="w3-left w3-container" style="width: 80%;">
+    <section class="w3-left w3-container" style="width: 70%;">
+        <article class="w3-left w3-container" style="width: 70%; display: flex;"></article>
         <div id="photo">
             <img src="./images/minseok jung.JPG" alt="minseok photo" width="200"/>
         <br>
@@ -73,7 +77,8 @@
             지원되지 않는 브라우저입니다.
         </iframe>
         </div>
-        <article class="w3-left w3-container" style="width: auto;">
+
+        <article class="w3-left w3-container" style="width: 70%; display: flex;">
         <div id="Profile">
             <h2 class="w3-xxlarge ">Minseok Profile</h2>
             <table class="w3-table-all w3-hoverable" style="border: 3px solid rebeccapurple;">
@@ -100,7 +105,7 @@
             </table>
         </div>
         </article>
-        <aside class="right" class="w3-container w3-cell">
+        <aside class="right" class="w3-container w3-cell" style="display: flex; flex-wrap: wrap;">
             <div id="link">
                 <h3 class="w3-text-pink">즐겨찾기</h3>
             <!--문서간의 이동-->
